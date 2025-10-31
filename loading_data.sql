@@ -1,0 +1,5 @@
+COPY traffic
+FROM 'D:\SQL PROJECT\SQL_PROJECT_TRAFFIC_ANALYSIS\traffic_data\traffic.csv'
+WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
+
+
